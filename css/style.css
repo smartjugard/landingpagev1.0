@@ -34,6 +34,7 @@ h1 {
 
 h2 {
   font-size: 32px;
+  color: rgb(233, 233, 233);
 }
 
 h2,h3 {
@@ -280,25 +281,10 @@ a:hover, a:active, a:focus {
 }
 
 .main-home {
-  background: url('../images/home.jpg') no-repeat;
+  background: url('../images/home.webp') no-repeat;
   height: 100vh;
 }
 
-.main-about {
-  background: url('../images/about-bg.jpg') no-repeat;
-}
-
-.main-single-post {
-  background: url('../images/single-post-bg.jpg') no-repeat;
-}
-
-.main-gallery {
-  background: url('../images/gallery-bg.jpg') no-repeat;
-}
-
-.main-contact {
-  background: url('../images/contact-bg.jpg') no-repeat;
-}
 
 #particles-js {
   position: absolute;
@@ -362,6 +348,11 @@ a:hover, a:active, a:focus {
    Gallery section              
 -----------------------------------------*/
 
+#gallery {
+
+  background-color: #000;
+}
+
 #gallery span {
   display: block;
   padding-bottom: 32px;
@@ -373,7 +364,7 @@ a:hover, a:active, a:focus {
 }
 
 #gallery .gallery-thumb {
-  background-color: #ffffff;
+  background-color: #000000;
   box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
   cursor: pointer;
   display: block;
@@ -393,6 +384,9 @@ a:hover, a:active, a:focus {
 
 #gallery .col-md-12 p {
   padding-top: 22px;
+  text-align: center;
+}
+#gallery .col-md-12 h2 {
   text-align: center;
 }
 
